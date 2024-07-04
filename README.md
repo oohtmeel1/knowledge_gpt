@@ -1,5 +1,5 @@
 <h1 align="center">
-📖NIST AI 600-1 Helper
+📖NIST AI 600-1 Helper - KnowledgeGPT adaptation for Responsible AI documents
 </h1>
 
 <div id="top" align="center">
