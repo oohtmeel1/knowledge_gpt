@@ -85,7 +85,7 @@ with st.spinner("Indexing document... This may take a while⏳"):
 
 with st.form(key="qa_form"):
     query = st.text_area("Ask a question about the document")
-    submit = st.form_submit_button("Submit")
+    submit = st.form_submit_button("Submit ")
 
 
 if show_full_doc:
