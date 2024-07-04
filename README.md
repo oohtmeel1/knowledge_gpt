@@ -11,6 +11,8 @@
 
 </div>
 
+**This tool is not Associated with NIST. This is just a proof of concept. I made it for fun.**
+
 **Accurate answers and instant citations for your documents.**
 
 Upload your documents and get answers to your questions, with citations from the text.
