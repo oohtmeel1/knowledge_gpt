@@ -26,8 +26,8 @@ MODEL_LIST = ["gpt-3.5-turbo", "gpt-4"]
 # Uncomment to enable debug mode
 # MODEL_LIST.insert(0, "debug")
 
-st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
-st.header("📖KnowledgeGPT")
+st.set_page_config(page_title="NIST AI 600-1 Helper", page_icon="📖", layout="wide")
+st.header("📖NIST AI 600-1 Helper")
 
 # Enable caching for expensive functions
 bootstrap_caching()
@@ -45,7 +45,7 @@ if not openai_api_key:
 
 
 uploaded_file = st.file_uploader(
-    "Upload a pdf, docx, or txt file",
+    "Upload the latest version of the Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
     type=["pdf", "docx", "txt"],
     help="Scanned documents are not supported yet!",
 )
@@ -84,7 +84,8 @@ with st.spinner("Indexing document... This may take a while⏳"):
     )
 
 with st.form(key="qa_form"):
-    query = st.text_area("Ask a question about the document")
+    query = st.text_area("""Ask about the Artificial Intelligence Risk 
+                         Management Framework: Generative Artificial Intelligence Profile""")
     submit = st.form_submit_button("Submit ")
 
 

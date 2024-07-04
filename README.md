@@ -1,5 +1,5 @@
 <h1 align="center">
-📖KnowledgeGPT
+📖NIST AI 600-1 Helper
 </h1>
 
 <div id="top" align="center">
