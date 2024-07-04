@@ -30,7 +30,7 @@ def sidebar():
         st.markdown("# GenAI and it's role in the Responsible AI transition for companies")
         st.markdown(
             "There are many tools and resources that assist companies in the transition towards their Responsible AI Goals."
-            " This tool is a proof of concept example for how Generative AI can help."
+            " This tool is a proof of concept example for how Generative AI can help in navigating complex documents."
 
    
    )

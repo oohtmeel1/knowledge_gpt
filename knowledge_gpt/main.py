@@ -27,7 +27,7 @@ MODEL_LIST = ["gpt-3.5-turbo", "gpt-4"]
 # MODEL_LIST.insert(0, "debug")
 
 st.set_page_config(page_title="NIST AI 600-1 Helper", page_icon="📖", layout="wide")
-st.header("📖NIST AI 600-1 Helper")
+st.header("📖NIST AI 600-1 Helper - leveraging OpenAI in helping companies meet their AI readiness goals")
 
 # Enable caching for expensive functions
 bootstrap_caching()
