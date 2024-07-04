@@ -25,14 +25,24 @@ def sidebar():
         )
 
         st.session_state["OPENAI_API_KEY"] = api_key_input
+        
+        st.markdown("---")
+        st.markdown("# GenAI and it's role in the Responsible AI transition for companies")
+        st.markdown(
+            "There are many tools and resources that assist companies in the transition towards their Responsible AI Goals."
+            " This tool is a proof of concept example for how Generative AI can help."
 
+   
+   )
         st.markdown("---")
         st.markdown("# About")
         st.markdown(
-            "📖NIST AI 600-1 Helper allows you to ask questions about the "
+            "📖NIST AI 600-1 Helper allows you to ask questions about the NIST "
             "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile and get accurate answers with instant citations. "
 			"The most recent version of the document can be found here.[Source](https://www.nist.gov/itl/ai-risk-management-framework)"
+   
    )
+
         st.markdown("# What is the purpose of the Artificial Intelligence Risk Management Framework document?")
         st.markdown(
             "In collaboration with the private and public sectors, "
