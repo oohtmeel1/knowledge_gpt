@@ -1,6 +1,8 @@
 import pytest
-from langchain.docstore.document import Document
 
+from langchain.docstore.document import Document
+import sys
+sys.path.append('../knowledge_gpt')
 from knowledge_gpt.core.chunking import chunk_file
 from .fake_file import FakeFile
 
@@ -18,7 +20,7 @@ def multi_page_file():
         Document(page_content="This is the first page", metadata={"page": 1}),
         Document(page_content="This is the second page.", metadata={"page": 2}),
     ]
-    file = FakeFile(name="test.pdf", id="2", docs=docs)
+    file = FakeFile(name="test_document.pdf", id="2", docs=docs)
     return file
 
 

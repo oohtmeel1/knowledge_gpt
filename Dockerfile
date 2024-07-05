@@ -1,5 +1,5 @@
 # Use multi-stage builds to reduce the size of the final image
-FROM python:3.10-slim as builder
+FROM python:3.12-slim as builder
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \ 
@@ -19,9 +19,10 @@ RUN apt-get update && apt-get install -y \
 COPY poetry.lock pyproject.toml poetry.toml ./
 
 RUN  poetry install --no-interaction --no-ansi --no-root --without dev,lint,extras
+RUN pip install --upgrade pip && pip install setuptools==69.0.1
+RUN pip install tiktoken==0.5.1
 
-
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 
@@ -32,5 +33,5 @@ COPY /knowledge_gpt ./knowledge_gpt
 ENV PATH="/app/.venv/bin:$PATH"
 
 EXPOSE 8501
-
+#CMD ["python", "-m" ,"unittest" ,"-s", "tests"]
 CMD ["python", "-m", "streamlit", "run", "knowledge_gpt/main.py", "--server.port=8501", "--server.address=0.0.0.0"]

@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../knowledge_gpt')
 from knowledge_gpt.core.embedding import FolderIndex, embed_files
 from .fake_file import FakeFile
 from langchain.docstore.document import Document
