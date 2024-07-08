@@ -30,7 +30,7 @@ the first number is set to 1 and the second number is the chunk number.
 
 ## Are the answers 100% accurate?
 No, the answers are not 100% accurate. NIST AI 600-1 Helper uses 
-a powerful language model, either gpt-4o or gpt-3.5-turbo, 
+a powerful language model, mainly gpt-4o, 
 but it sometimes makes mistakes 
 and is prone to hallucinations. Also, NIST AI 600-1 Helper uses semantic search
 to find the most relevant chunks and does not see the entire document,
