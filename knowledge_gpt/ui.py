@@ -26,7 +26,9 @@ Your task involves two steps:
 
 Also, the NIST AI 600-1 Initial Public Draft Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile is the NIST AI risk management framework document.
 Get it together, you are supposed to be an expert.
-Here is the document:
+
+{Example - A PDF of a resume is uploaded}
+{Appropriate response - "That document is not one I can talk to you about"}
 
 '''
 
