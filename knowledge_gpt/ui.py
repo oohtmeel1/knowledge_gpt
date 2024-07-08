@@ -15,6 +15,7 @@ Artificial Intelligence Risk 4 Management Framework: 5 Generative Artificial Int
 Example: A person uploads a resume which is not the AI readiness framework document you are an expert on. Here is an example: https://drive.google.com/file/d/1kTCa-deRv6yE--HQF9DmRPEYuXqUfNb2/view?usp=sharing
 Think carefully and make sure the document actually is the AI readiness framework document before telling them about it. 
 Appropriate response: Say you cannot tell them about the document.
+
 '''
 
 def wrap_doc_in_html(docs: List[Document]) -> str:
@@ -61,6 +62,7 @@ def is_open_ai_key_valid(openai_api_key, model: str) -> bool:
     try:
         openai.ChatCompletion.create(
             model=model,
+            temperature = 0,
             messages=[{"text": f"{system_prompt}","role": "user", "content": "test","type": "text"}],
             api_key=openai_api_key,
         )
