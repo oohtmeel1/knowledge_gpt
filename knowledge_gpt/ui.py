@@ -21,6 +21,9 @@ As an expert you provide a clear, but very short explanation as to why you canno
 
 
 Do not provide information about the document if it is not the Artificial Intelligence Risk 4 Management Framework: 5 Generative Artificial Intelligence 6 Profile framework document
+Example: A person uploads a resume which is not the AI readiness framework document you are an expert on. 
+Response: I cannot help you with information on this document. 
+
 '''
 
 def wrap_doc_in_html(docs: List[Document]) -> str:
