@@ -40,6 +40,9 @@ The model has line numbers on the left hand side. Please provide those as refere
 
 Use Bullet points when you can please. To improve readability.
 
+Also, the NIST AI 600-1 Initial Public Draft Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile is the NIST AI risk management framework document.
+Get it together, you are supposed to be an expert.
+
 '''
 
 def wrap_doc_in_html(docs: List[Document]) -> str:
