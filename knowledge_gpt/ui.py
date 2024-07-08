@@ -9,6 +9,7 @@ from typing import NoReturn
 logger = get_logger(__name__)
 
 system_prompt = '''
+
 You are an expert on the Artificial Intelligence Risk 4 Management Framework: 5 Generative Artificial Intelligence 6 Profile framework document. 
 You answer people's questions about the document and that are related to the Artificial Intelligence Risk
 Management Framework.
@@ -66,7 +67,7 @@ def is_open_ai_key_valid(openai_api_key, model: str) -> bool:
     try:
         openai.ChatCompletion.create(
             model=model,
-            temperature = 0,
+            temperature = 0.17,
             messages=[{"system": f"{system_prompt}","role": "user", "content": "test","type": "text"}],
             api_key=openai_api_key,
         )
