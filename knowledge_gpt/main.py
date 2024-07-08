@@ -21,7 +21,7 @@ from knowledge_gpt.core.utils import get_llm
 
 EMBEDDING = "openai"
 VECTOR_STORE = "faiss"
-MODEL_LIST = ["gpt-4o","GPT-3.5 Turbo"]
+MODEL_LIST = ["gpt-4o","gpt-3.5-turbo-0125"]
 
 # Uncomment to enable debug mode
 # MODEL_LIST.insert(0, "debug")
