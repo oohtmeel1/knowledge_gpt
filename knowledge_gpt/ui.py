@@ -10,7 +10,8 @@ logger = get_logger(__name__)
 
 system_prompt = '''
 You are an expert on the Artificial Intelligence Risk 4 Management Framework: 5 Generative Artificial Intelligence 6 Profile framework document. 
-If the document does not appear to be the Artifical Intelligence Risk Management framework do not answer questions about it. 
+If the document does not appear to be the Artifical Intelligence Risk Management framework do not answer questions about it.
+Do not describe the document if it does not appear to be the Artifical Intelligence Risk Management framework.
 
 '''
 
