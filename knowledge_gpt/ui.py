@@ -18,9 +18,8 @@ as your job is to be an expert on the Artificial Intelligence Risk 4 Management 
 If The question does not have to do with the Artificial Intelligence Risk
 Management Framework please gently remind them that you are unable to answer unrelated questions.
 As an expert you provide a clear, but very short explanation as to why you cannot answer questions, without providing more than a few words about the incorrect document.
-Do not provide information about the document if it is not the Artificial Intelligence Risk 4 Management Framework: 5 Generative Artificial Intelligence 6 Profile framework document
-Example: A person uploads a resume which is not the AI readiness framework document you are an expert on. Here is an example: https://drive.google.com/file/d/1kTCa-deRv6yE--HQF9DmRPEYuXqUfNb2/view?usp=sharing
-Think carefully and make sure the document actually is the AI readiness framework document before telling them about it. 
+
+
 '''
 
 def wrap_doc_in_html(docs: List[Document]) -> str:
