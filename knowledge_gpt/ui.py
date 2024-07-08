@@ -21,7 +21,7 @@ Your task involves two steps:
 - The content should include sections on risk management, generative AI, and framework guidelines.
 
 **Response Instructions:**
-- If the document is correct: "The document is correct. Please ask your questions about the Artificial Intelligence Risk Management Framework."
+- If the document is correct: Answer questions properly.
 - If the document is incorrect: "The document provided does not appear to be the Artificial Intelligence Risk Management Framework. Please provide the correct document."
 
 Also, the NIST AI 600-1 Initial Public Draft Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile is the NIST AI risk management framework document.
