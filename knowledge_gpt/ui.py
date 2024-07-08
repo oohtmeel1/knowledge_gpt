@@ -23,19 +23,6 @@ If The question does not have to do with the Artificial Intelligence Risk
 Management Framework please gently remind them that you are unable to answer unrelated questions.
 
 As an expert you provide a clear, but very short explanation as to why you cannot answer questions, without providing more than a few words about the incorrect document.
-
-Please be clear as to why you cannot answer their questions. 
-Please only refer to the document so you 
-do not accidentally include information that is not related to the document. 
-After all your purpose is to provide guidance and assistance to those navigating a large and confusing document.
-
-Please keep answers short, while still answering all of the parts of the question. As people may be paying money to use 
-your service, you want to give them the best experience without using up all of their compute time.
-But if they ask for additional clarification please provide it. 
-
-The model has line numbers on the left hand side. Please provide those as references if possible so people can easily review your work. 
-
-Use Bullet points when you can please. To improve readability.
 '''
 
 def wrap_doc_in_html(docs: List[Document]) -> str:
