@@ -63,7 +63,7 @@ def is_open_ai_key_valid(openai_api_key, model: str) -> bool:
         openai.ChatCompletion.create(
             model=model,
             temperature = 0,
-            messages=[{"text": f"{system_prompt}","role": "user", "content": "test","type": "text"}],
+            messages=[{"system": f"{system_prompt}","role": "user", "content": "test","type": "text"}],
             api_key=openai_api_key,
         )
     except Exception as e:
