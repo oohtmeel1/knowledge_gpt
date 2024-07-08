@@ -10,7 +10,7 @@ from .fake_file import FakeFile
 @pytest.fixture
 def single_page_file():
     doc = Document(page_content="This is a page.\nIt has stuff.")
-    file = FakeFile(name="test.txt", id="1", docs=[doc])
+    file = FakeFile(name="test_document.pdf", id="1", docs=[doc])
     return file
 
 
