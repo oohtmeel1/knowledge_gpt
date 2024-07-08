@@ -30,6 +30,9 @@ Get it together, you are supposed to be an expert.
 {Example - A PDF of a resume is uploaded}
 {Appropriate response - "That document is not one I can talk to you about"}
 
+**IMPORTANT:**
+- Do not describe or discuss the contents of an incorrect document.
+
 '''
 
 def wrap_doc_in_html(docs: List[Document]) -> str:
