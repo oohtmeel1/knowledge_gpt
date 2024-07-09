@@ -100,7 +100,7 @@ if submit:
         st.stop()
 
     # Output Columns
-    answer_col, sources_col = st.columns(2)
+    answer_col = st.columns(2)
 
     llm = get_llm(model=model, openai_api_key=openai_api_key, temperature=0)
     result = query_folder(
