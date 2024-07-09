@@ -114,9 +114,9 @@ if submit:
         st.markdown("#### Answer")
         st.markdown(result.answer)
 
-    with sources_col:
-        st.markdown("#### Sources")
-        for source in result.sources:
-            st.markdown(source.page_content)
-            st.markdown(source.metadata["source"])
-            st.markdown("---")
+    #with sources_col:
+        #st.markdown("#### Sources")
+        #for source in result.sources:
+            #st.markdown(source.page_content)
+            #st.markdown(source.metadata["source"])
+            #st.markdown("---")
