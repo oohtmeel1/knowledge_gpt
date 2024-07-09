@@ -38,7 +38,7 @@ The model has line numbers on the left hand side. Please provide those as refere
 
 - Do not describe or discuss the contents of an incorrect document. Simply say the document is wrong. Simple as that. 
 
-Please list the sources at the end simply.
+
 
 '''
 
